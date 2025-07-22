@@ -1,0 +1,79 @@
+/* JobDetail.css */
+.job-detail-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  .job-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  
+  .job-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .job-company, .job-location {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .original-listing {
+    display: inline-block;
+    color: #2563eb;
+    text-decoration: none;
+    margin-top: 1rem;
+    transition: color 0.2s ease;
+  }
+  
+  .original-listing:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+  
+  .job-content {
+    line-height: 1.7;
+    color: #444;
+  }
+  
+  .job-description {
+    font-size: 1rem;
+  }
+  
+  .job-description p {
+    margin-bottom: 1rem;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+  }
+  
+  .back-link:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+  }
+  
+  .loading-spinner {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .not-found {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    color: #dc2626;
+  }
